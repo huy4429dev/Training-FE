@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+     <style>
+         body{
+            font-family: 'Courier New', Courier, monospace;
+         }
+         .completed{
+            text-decoration: line-through;
+         }
+     </style>
+</head>
+<body>
+    <div class="form-control">
+        <div class="form-create">
+            <input name="input-create" type="text">
+            <button id="create">Create</button>
+        </div>
+        <div class="form-search">
+            <input name="input-search" type="text">
+            <button>Search</button>
+        </div>
+    </div>
+    <h2>Todo App</h2>
+    <ul id="todo-content">
+
+    </ul>
+    <script src="./app.js"></script>    
+</body>
+</html>
